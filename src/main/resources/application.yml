@@ -1,0 +1,25 @@
+spring:
+  application:
+        name: m2glfoad
+  datasource:
+      url: jdbc:mysql://localhost:3306/gestdb
+      username: root
+      password: Mustapha@2024
+      driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    database-platform: org.hibernate.dialect.MySQLDialect
+    hibernate.ddl-auto: update
+    show-sql: true
+    open-in-view: false
+server:
+  port: 8080
+#  graphql.graphiql.enabled=true
+#  graphql.cors.allowed-origins=*
+#  graphql.schema.printer.enabled=true
+
+
+          #  jpa:
+#      database-platform: org.hibernate.dialect.MySQL5Dialect
+#      generate-ddl: true
+#      hibernate.ddl-auto: update
